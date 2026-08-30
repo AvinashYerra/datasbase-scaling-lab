@@ -1,0 +1,4 @@
+strategy,total_requests,concurrency,db_pool_size,initial_inventory,successful,sold_out,errors,final_inventory,oversold_units,inventory_valid,time_seconds,throughput_req_sec
+naive,1000,500,90,100,186,814,0,-86,86,false,0.110,9104.20
+lock,1000,500,90,100,100,900,0,0,0,true,0.438,2284.79
+atomic,1000,500,90,100,100,900,0,0,0,true,0.104,9593.60
